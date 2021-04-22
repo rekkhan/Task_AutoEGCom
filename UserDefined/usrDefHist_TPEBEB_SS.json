@@ -1,0 +1,19 @@
+{
+"filter0" : "tag_Ele_pt>40  &&  tag_sc_abseta<1.4442  &&  el_et>20  &&  el_sc_abseta<2.5  &&  pair_mass>80  &&  pair_mass<100",
+"filter1" : "tag_sc_abseta <= 1.479 && el_sc_abseta <= 1.479 && combinedProbeIso<0.1",
+"regECAL" : "EB_EB"
+}
+
+
+
+
+
+{
+"variable"   : "pair_mass",
+"histogram"  : "pair_mass",
+"titleX"     : "Probe #eta_{sc}",
+"nBins"      : 60,
+"binMin"     : 60,
+"binMax"     : 120,
+"PUWeight"   : "ev_weight"
+}
