@@ -1,0 +1,53 @@
+<ntuple_target>
+	fileInput:
+		$ /eos/cms/store/group/phys_egamma/akapoor/Tag-and-Probe_Tree/UL2016_ntuples/UL2016_SingleEle_Run2016C_AOD.root
+		$ /eos/cms/store/group/phys_egamma/akapoor/Tag-and-Probe_Tree/UL2016_ntuples/UL2016_SingleEle_Run2016D_AOD.root
+	runPeriod:
+		$ C
+		$ D
+	luminosity:
+		$ 2.65
+		$ 4.29
+	filePU:
+		$ ignore
+		$ ignore
+	treePU:
+		$ ignore
+		$ ignore
+	
+	legend:     Data
+	nCompare:   2
+	year:       2016
+	reproc:     UltraLegacy
+	version:    Test20210417
+	isMC:       false
+	doCombine:  false
+</ntuple_target>
+
+
+
+<ntuple_reference>
+	fileInput:
+		$ /eos/cms/store/group/phys_egamma/akapoor/Tag-and-Probe_Tree/UL2016_ntuples/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_preVFP_UL2016_AOD.root
+		$ /eos/cms/store/group/phys_egamma/akapoor/Tag-and-Probe_Tree/UL2016_ntuples/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_preVFP_UL2016_AOD.root
+	runPeriod:
+		$ C
+		$ D
+	luminosity:
+		$ 2.65
+		$ 4.29
+	filePU:
+		$ /eos/cms/store/group/phys_egamma/soffi/TnP/ntuples_04162018-Legacy2016/Legacy16_V1/PU/mc/DY_madgraph_Moriond17_ele.pu.puTree.root
+		$ /eos/cms/store/group/phys_egamma/soffi/TnP/ntuples_04162018-Legacy2016/Legacy16_V1/PU/mc/DY_madgraph_Moriond17_ele.pu.puTree.root
+	treePU:
+		$ weights_2016_runBCD
+		$ weights_2016_runBCD
+	
+	legend:     Z -> ee (MC)
+	nCompare:   2
+	year:       2016
+	reproc:     UltraLegacy
+	version:    Test20210417
+	isMC:       true
+	doCombine:  false
+</ntuple_reference>
